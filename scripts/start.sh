@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "$(dirname "${BASH_SOURCE[0]}")"
+cd "$(dirname "${BASH_SOURCE[0]}/..")"
 
 # set legacy installer's PATH, if it exists
 if [ -e "installer" ]; then export PATH="$(pwd)/installer/bin:$PATH"; fi
