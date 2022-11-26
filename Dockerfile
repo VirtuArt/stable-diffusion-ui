@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y build-essential  && \
     apt-get install -y wget && \
     apt-get install -y curl && \
-    apt-get install libglib2.0-0 && \
+    apt-get install -y libglib2.0-0 && \
     apt-get clean && \
     apt-get -y install git && \
     rm -rf /var/lib/apt/lists/*
